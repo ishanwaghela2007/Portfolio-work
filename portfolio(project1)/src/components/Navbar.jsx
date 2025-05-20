@@ -44,6 +44,7 @@ export default function Navbar() {
                             <li><NavLink to="/about" className={navLinkClass}>About</NavLink></li>
                             <li><NavLink to="/contact" className={navLinkClass}>Contact</NavLink></li>
                             <li><NavLink to="/project" className={navLinkClass}>Projects</NavLink></li>
+                            <li><NavLink to="/map" className={navLinkClass}>Map</NavLink></li>
                         </ul>
                     </div>
                 </div>

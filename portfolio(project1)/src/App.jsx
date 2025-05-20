@@ -6,6 +6,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import NotFoundPage from './pages/NotFound-page'
 import Project from './pages/Project'
+import Map from './pages/Map'
 
 
 
@@ -23,6 +24,7 @@ function App() {
             <Contact/>
             }/>
           <Route path='Project' element={<Project/>}/>
+          <Route path='Map' element={<Map/>}/>
           <Route path="*" element={<NotFoundPage/>}/>
         </Route>
       </Routes>
