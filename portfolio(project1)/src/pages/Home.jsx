@@ -40,6 +40,7 @@ const Home = () => {
             <button className="rounded-full bg-white px-8 py-3 font-semibold text-black shadow-xl hover:bg-black hover:text-white transition-all duration-300 transform hover:scale-105">
               Resume
             </button>
+            
           </Link>
           <Link to="/project">
             <button className="rounded-full bg-white px-8 py-3 font-semibold text-black shadow-xl hover:bg-black hover:text-white transition-all duration-300 transform hover:scale-105">
